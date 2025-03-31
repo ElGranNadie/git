@@ -1,17 +1,17 @@
 void main() {
   List<List<dynamic>> matrizPrecios = [
     //item       ,lun  ,mar  ,mie  ,jue  ,vie  ,sab  ,dom  
-    ["camisas"   ,100  ,90   ,80   ,70   ,60   ,70   ,60  ],
-    ["pantalones",92.0 ,98.2 , 76.0,92.0 ,98.2 ,16.0 ,98.5],
-    ["zapatos"   ,100  ,90   , 80  ,92.0 ,98.2 ,70   ,60  ],
-    ["jeans"     ,100  ,90   , 80  ,92.0 ,98.2 ,70   ,60  ],
+    ["camisas"   ,100.0,90.0 ,80.0 ,70.0 ,60.0 ,70.0 ,60.0  ],
+    ["pantalones",92.0 ,98.2 ,76.0 ,92.0 ,98.2 ,16.0 ,98.5],
+    ["zapatos"   ,100.0,90.0 ,80.0 ,92.0 ,98.2 ,70.0 ,60.0  ],
+    ["jeans"     ,100.0,90.0 ,80.0 ,92.0 ,98.2 ,70.0 ,60.0  ],
   ];
   //print(promedio(matrizPrecios[0]));
   //print(alto(matrizPrecios[0]));
   imprimir(matrizPrecios);
 }
 void imprimir(List<List<dynamic>> estudiantes){
-  int x = 1;
+  double x = 1;
   for(List<dynamic> notas in estudiantes){
     print("Producto No.: "+ x.toString());
     print (" Nombre.: "+ notas[0]);
